@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^helper_scripts$
+^README\.Rmd$
+^path/to/non-standard-file$

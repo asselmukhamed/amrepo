@@ -1,0 +1,30 @@
+#' Prihlasky Data 2020-21
+#'
+#' This dataset contains application data for the academic year 2020-21.
+#' It includes information such as applicant IDs, scores, and program choices.
+#'
+#' @format A data frame with 499 rows and 17 columns.
+#' \describe{
+#'   \item{Reg. č.}{Integer. Unique registration number of the application.}
+#'   \item{Program zkratka}{String. Abbreviation of the applied program.}
+#'   \item{Obor zkr. zkratka}{String. Abbreviation of the field of study.}
+#'   \item{Typ studia}{String. Type of study, such as full-time or part-time.}
+#'   \item{Forma}{String. Form of study, indicating the format or structure.}
+#'   \item{Datum přijetí př.}{Date. Date of the applicant's admission.}
+#'   \item{Školné zapl.}{Boolean. Indicates whether the tuition has been paid.}
+#'   \item{Potvrzení zájmu}{Boolean. Confirmation of interest in the offer.}
+#'   \item{KA - obec}{String. Name of the municipality.}
+#'   \item{KA - stát}{String. Name of the country.}
+#'   \item{Rozh. o přijetí - kód}{Integer. Code pertaining to the admission decision.}
+#'   \item{Rozh. o přijetí - název}{String. Title or name associated with the admission decision.}
+#'   \item{Datum zápisu}{Date. Date of enrollment into the program.}
+#'   \item{Studium}{String. General descriptor of the study or program.}
+#'   \item{ID přihlášky}{Integer. Unique identifier of the application.}
+#'   \item{Program název}{String. Full name of the program applied to.}
+#'   \item{Pohlaví}{String. Gender of the applicant.}
+#' }
+#' @source Czech University of Life Sciences
+#' @examples
+#' head(prihlasky_2020_21)
+#' @name prihlasky_2020_21
+"prihlasky_2020_21"
